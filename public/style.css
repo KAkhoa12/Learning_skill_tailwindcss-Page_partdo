@@ -1,0 +1,25 @@
+.slick-prev.slick-arrow,.slick-next.slick-arrow{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 35px;
+    height: 55px;
+    z-index: 2;
+    background-color: white;
+}
+.slick-prev::before{
+    content: '\f104';
+    font-family: FontAweSome;
+    color: black;
+}
+.slick-next::before{
+    content: '\f105';
+    font-family: FontAweSome;
+    color: black;
+}
+.slick-dots li.slick-active button:before {
+    color: rgb(255, 34, 34);
+}
+#logo_brand .slick-prev.slick-arrow,#logo_brand .slick-next.slick-arrow,
+#user_rating .slick-prev.slick-arrow,#user_rating .slick-next.slick-arrow{
+    display: none !important;
+}
